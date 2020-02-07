@@ -178,7 +178,7 @@ DB_CONFIG = {
     "USER": 'root',
     "PASSWORD": 'root',
     "DATABASE": 'code_data',
-    "TABLE": 'Snippet',
+    "TABLE": 'snippet',
 }
 
 
