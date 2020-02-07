@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'code_data',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -176,7 +176,7 @@ SIMPLE_JWT = {
 DB_CONFIG = {
     "HOST": 'localhost',
     "USER": 'root',
-    "PASSWORD": '',
+    "PASSWORD": 'root',
     "DATABASE": 'code_data',
     "TABLE": 'Snippet',
 }
