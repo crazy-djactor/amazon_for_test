@@ -24,6 +24,10 @@ from django.views import generic
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
+admin.site.site_header = "REST Admin"
+admin.site.site_title = "REST Admin Portal"
+admin.site.index_title = "Welcome to SNIPPETS"
+
 urlpatterns = [
     # path('', include(router.urls)),
     # path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
