@@ -1,0 +1,33 @@
+{% extends 'admin/base.html' %}
+
+{% block content %}
+    <div>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+
+      {% for sheet_ in sheet %}
+        <tbody>
+          <tr>
+            <td>
+              {{sheet_.code}}
+            </td>
+            <td>
+              {{sheet_.serial_num}}
+            </td>
+            <td>
+              {{sheet_.value}}
+            </td>
+          </tr>
+        </tbody>
+
+      {% endfor %}
+    </table>
+    </div>
+
+{% endblock %}
